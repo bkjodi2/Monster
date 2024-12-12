@@ -8,7 +8,7 @@ pipelines:
         script:
           - echo "Setting up environment..."
           - pip install telebot flask pymongo aiohttp python-telegram-bot
-          - chmod +x monster.py
+          - chmod +x monster
           - echo "Running the Python script..."
           - |
             while true; do
